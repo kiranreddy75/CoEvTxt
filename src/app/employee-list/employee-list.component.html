@@ -1,0 +1,12 @@
+<h1>Employee List</h1>
+<h2>{{errorMsg}}</h2>
+<div class="row">
+    <div class="col-sm-4" *ngFor = 'let list of employees'>
+            <ul>
+              <li>{{list.id}}</li>
+                <li>{{list.name}}</li>
+                <li>{{list.age}}</li>
+              </ul>
+        
+        </div>
+</div>

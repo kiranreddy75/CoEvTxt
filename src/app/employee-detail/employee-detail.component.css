@@ -1,0 +1,6 @@
+table{
+    border: 2px solid black;
+    background-color: rgb(37, 111, 160);
+    color: aliceblue;
+    display: inline-block
+}
